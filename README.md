@@ -1,6 +1,6 @@
 <h1 align="center">Hey there 👋, I'm Benoit!</h1>
 <p align="center">
-    <i>I am learning to program in order to simplify my life and create something new</b>
+    <b>I am learning to program in order to simplify my life and create something new</b>
     <br />
     <br />
     <a href="https://github.com/MrBenoit">
