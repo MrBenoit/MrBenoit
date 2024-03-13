@@ -94,4 +94,5 @@ GitHub Stats 📊
 Pins 📌
 ---------------
 
-[![Lapisd](https://github-readme-stats.vercel.app/api/pin/?username=mrbenoit&repo=Lapis&theme=material-palenight)](https://github.com/mrbenoit/Lapis)
+[![Lapis](https://github-readme-stats.vercel.app/api/pin/?username=mrbenoit&repo=Lapis&theme=material-palenight)](https://github.com/mrbenoit/Lapis)
+[![MatrixCalculator](https://github-readme-stats.vercel.app/api/pin/?username=mrbenoit&repo=MatrixCalculator&theme=material-palenight)](https://github.com/mrbenoit/Lapis)
