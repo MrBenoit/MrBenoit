@@ -86,5 +86,12 @@ Contact Me 📡
 [![GitHub](https://img.shields.io/badge/-%E2%81%A0%20%E2%81%A0MrBenoit%20%E2%81%A0%E2%81%A0-333333?style=for-the-badge&logo=github&logoColor=white&labelColor=181717)](https://github.com/MrBenoit)
 
 
+GitHub Stats 📊
+---------------
+
 ![Benoit GitHub Stats](https://github-readme-stats.vercel.app/api?username=mrbenoit&show_icons=true&theme=material-palenight)
+
+Pins 📌
+---------------
+
 [![Lapisd](https://github-readme-stats.vercel.app/api/pin/?username=mrbenoit&repo=Lapis&theme=material-palenight)](https://github.com/mrbenoit/Lapis)
