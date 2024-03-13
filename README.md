@@ -84,3 +84,7 @@ Contact Me 📡
 [![Reddit](https://img.shields.io/badge/-%E2%81%A0%E2%81%A0u%2FMrBenoit00%E2%81%A0%E2%81%A0-333333?style=for-the-badge&logo=reddit&logoColor=white&labelColor=FF4500)](https://www.reddit.com/user/MrBenoit00)
 [![Twitter](https://img.shields.io/badge/-@MrBenoit00-333333?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2)](https://twitter.com/WillyJL_)\
 [![GitHub](https://img.shields.io/badge/-%E2%81%A0%20%E2%81%A0MrBenoit%20%E2%81%A0%E2%81%A0-333333?style=for-the-badge&logo=github&logoColor=white&labelColor=181717)](https://github.com/MrBenoit)
+
+
+![Benoit GitHub Stats](https://github-readme-stats.vercel.app/api?username=mrbenoit&show_icons=true&theme=material-palenight)
+[![Lapisd](https://github-readme-stats.vercel.app/api/pin/?username=mrbenoit&repo=Lapis&theme=material-palenight)](https://github.com/mrbenoit/Lapis)
