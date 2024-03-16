@@ -23,10 +23,10 @@
 
 ```py
 from datetime import date
-
 from sqlalchemy import select
 from sqlalchemy import and_
 from sqlalchemy.ext.asyncio import AsyncSession
+
 from core.models import engine
 
 class AboutMe():
