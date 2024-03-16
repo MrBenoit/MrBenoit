@@ -26,9 +26,8 @@ from datetime import date
 
 from sqlalchemy import select
 from sqlalchemy import and_
-from sqlalchemy import insert
-from sqlalchemy import update
 from sqlalchemy.ext.asyncio import AsyncSession
+from core.models import engine
 
 class AboutMe():
     def __init__(self):
