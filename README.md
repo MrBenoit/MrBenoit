@@ -24,16 +24,33 @@
 ```py
 from datetime import date
 
+from sqlalchemy import select
+from sqlalchemy import and_
+from sqlalchemy import insert
+from sqlalchemy import update
+from sqlalchemy.ext.asyncio import AsyncSession
+
 class AboutMe():
     def __init__(self):
-        self.username = "MrBenoit"
-        self.pronouns = ("he", "him")
-        self.location = {"Russian": "Moscow"}
-        self.occupation = "Computer Science Student"
-        self.birthday = date(day=16, month=6, year=2004)
-        self.age = (date.today()-self.birthday).days/365  # 19 y/o
-        self.hobbies = ["Coding", "Gaming", "Anime", "Gym"]
-        self.interests = ["Programming", "Mac OS", "Open Source"]
+        async with AsyncSession(engine) as session:
+            user = session.scalar(
+                select(Users)
+                .where(
+                    and_(
+                        user_id=1,
+                        user_name='MrBenoit'
+                    )
+                )
+            )
+            
+        print(user.username) # "MrBenoit"
+        print(user.pronouns) # ("he", "him")
+        print(user.location) #  {"Russian": "Moscow"}
+        print(user.occupation) # "Computer Science Student"
+        print(user.birthday) # 16.06.2004
+        print(user.age) # 19 y.o
+        print(user.hobbies) # ["Coding", "Gaming", "Anime", "Gym"]
+        print(user.interests) # "Programming", "Mac OS", "Open Source"]
 
 if __name__ == "__main__":
     me = AboutMe()
