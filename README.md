@@ -72,7 +72,7 @@ Projects 📦
 
 - #### <a href="https://github.com/MrBenoit/MatrixCalculator"><img align="center" src="https://img.shields.io/badge/-Matrix Calculator-3f4cba?style=for-the-badge"></a> -&nbsp;A simple matrix calculator. I wrote it out of boredom
 
-- #### <a href="https://mrbenoit.ru"><img align="center" src="https://img.shields.io/badge/-mrbenoit.ru-2880bf?style=for-the-badge"></a> :&nbsp; My personal website
+- #### <a href="https://mrbenoit.ru"><img align="center" src="https://img.shields.io/badge/-mrbenoit.ru-2880bf?style=for-the-badge"></a> :&nbsp; My personal website | Not work
 
 <br />
 
@@ -81,6 +81,9 @@ Languages 💾
 
 [![Python](    https://img.shields.io/badge/-Python-333333?style=for-the-badge&logo=python&logoColor=white&labelColor=3776FB     )](https://www.python.org/)
 [![PostgreSQL](    https://img.shields.io/badge/-PostgreSql-333333?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=2352b8     )](https://www.postgresql.org)
+![HTML](    https://img.shields.io/badge/-HTML-333333?style=for-the-badge&logo=HTML&logoColor=white&labelColor=2352b8     )
+![CSS](    https://img.shields.io/badge/-CSS-333333?style=for-the-badge&logo=css&logoColor=white&labelColor=2352b8     )
+
 
 Tools 🛠️
 --------
@@ -93,7 +96,7 @@ Tools 🛠️
 My Specs 💻
 -----------
 
-![Desktop](https://img.shields.io/badge/Desktop-333333?style=for-the-badge&logo=windows10&logoColor=white&labelColor=00A4EF)
+![Desktop](https://img.shields.io/badge/Desktop-333333?style=for-the-badge&logo=ubuntu&logoColor=white&labelColor=00A4EF)
 [![CPU](https://img.shields.io/badge/-Ryzen_5_5600X%E2%81%A0%20%E2%81%A0%20-333333?style=for-the-badge&logo=amd&logoColor=white&labelColor=ED1C24)](https://www.amd.com/en/products/cpu/amd-ryzen-5-5600#product-specs)
 [![GPU](https://img.shields.io/badge/-Nvidia_RTX_3070-333333?style=for-the-badge&logo=nvidia&logoColor=white&labelColor=76B900)](https://www.amd.com/en/products/apu/amd-ryzen-5-3500u#product-specs)
 
