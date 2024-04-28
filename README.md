@@ -67,18 +67,16 @@ if __name__ == "__main__":
 
 Projects 📦
 -----------
-
 - #### <a href="https://github.com/MrBenoit/Lapis"><img align="center" src="https://img.shields.io/badge/-Lapis-7289da?style=for-the-badge"></a> -&nbsp;Discord bot with a variety of functionality
 
 - #### <a href="https://github.com/MrBenoit/MatrixCalculator"><img align="center" src="https://img.shields.io/badge/-Matrix Calculator-3f4cba?style=for-the-badge"></a> -&nbsp;A simple matrix calculator. I wrote it out of boredom
 
 - #### <a href="https://mrbenoit.ru"><img align="center" src="https://img.shields.io/badge/-mrbenoit.ru-2880bf?style=for-the-badge"></a> :&nbsp; My personal website | Not work
 
-<br />
+<br/>
 
 Languages 💾
 ------------
-
 [![Python](    https://img.shields.io/badge/-Python-333333?style=for-the-badge&logo=python&logoColor=white&labelColor=3776FB     )](https://www.python.org/)
 [![PostgreSQL](    https://img.shields.io/badge/-PostgreSql-333333?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=2352b8     )](https://www.postgresql.org)
 ![HTML](    https://img.shields.io/badge/-HTML-333333?style=for-the-badge&logo=HTML&logoColor=white&labelColor=2352b8     )
@@ -87,7 +85,6 @@ Languages 💾
 
 Tools 🛠️
 --------
-
 [![VS Code](   https://img.shields.io/badge/-VS_Code-333333?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=007ACC)](https://code.visualstudio.com/)
 [![JetBrains](   https://img.shields.io/badge/-JetBrains-333333?style=for-the-badge&logo=jetbrains&logoColor=black&labelColor=faa84b)](https://code.visualstudio.com/)
 [![Zsh](       https://img.shields.io/badge/-Zsh-333333?style=for-the-badge&logo=zelle&logoColor=white&labelColor=FF2299               )](https://www.zsh.org/)
@@ -95,7 +92,6 @@ Tools 🛠️
 
 My Specs 💻
 -----------
-
 ![Desktop](https://img.shields.io/badge/Desktop-333333?style=for-the-badge&logo=ubuntu&logoColor=white&labelColor=00A4EF)
 [![CPU](https://img.shields.io/badge/-Ryzen_5_5600X%E2%81%A0%20%E2%81%A0%20-333333?style=for-the-badge&logo=amd&logoColor=white&labelColor=ED1C24)](https://www.amd.com/en/products/cpu/amd-ryzen-5-5600#product-specs)
 [![GPU](https://img.shields.io/badge/-Nvidia_RTX_3070-333333?style=for-the-badge&logo=nvidia&logoColor=white&labelColor=76B900)](https://www.amd.com/en/products/apu/amd-ryzen-5-3500u#product-specs)
@@ -105,7 +101,6 @@ My Specs 💻
 
 Contact Me 📡
 ---------------
-
 [![Discord](https://img.shields.io/badge/-%E2%81%A0%20%E2%81%A0%E2%81%A0%20%E2%81%A0mrbenoit00%E2%81%A0%20%E2%81%A0%20-333333?style=for-the-badge&logo=discord&logoColor=white&labelColor=5865F2)](https://discord.gg/5bb3H73deS)
 [![Instagram](https://img.shields.io/badge/-@MrBenoit00-333333?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F)](https://www.instagram.com/MrBenoit00)\
 [![Reddit](https://img.shields.io/badge/-%E2%81%A0%E2%81%A0u%2FMrBenoit00%E2%81%A0%E2%81%A0-333333?style=for-the-badge&logo=reddit&logoColor=white&labelColor=FF4500)](https://www.reddit.com/user/MrBenoit00)
@@ -117,11 +112,9 @@ Contact Me 📡
 
 GitHub Stats 📊
 ---------------
-
 ![Benoit GitHub Stats](https://github-readme-stats.vercel.app/api?username=mrbenoit&show_icons=true&theme=material-palenight)
 
 Pins 📌
 ---------------
-
 [![Lapis](https://github-readme-stats.vercel.app/api/pin/?username=mrbenoit&repo=Lapis&theme=material-palenight)](https://github.com/mrbenoit/Lapis)
 [![MatrixCalculator](https://github-readme-stats.vercel.app/api/pin/?username=mrbenoit&repo=MatrixCalculator&theme=material-palenight)](https://github.com/mrbenoit/MatrixCalculator)
