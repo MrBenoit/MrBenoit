@@ -42,22 +42,22 @@ class AboutMe():
                 )
             )
             
-        print(user.username)
-        > MrBenoit
-        print(user.pronouns)
-        > ["he", "him"]
-        print(user.location)
-        > {"Russian": "Moscow"}
-        print(user.occupation)
-        > Computer Science Student
-        print(user.birthday)
-        > 16.06.2004
-        print(user.age)
-        > 19
-        print(user.hobbies)
-        > ["Coding", "Gaming", "Anime", "Gym"]
-        print(user.interests)
-        > ["Programming", "Music", "Open Source"]
+print(user.username)
+> MrBenoit
+print(user.pronouns)
+> ["he", "him"]
+print(user.location)
+> {"Russian": "Moscow"}
+print(user.occupation)
+> Computer Science Student
+print(user.birthday)
+> 16.06.2004
+print(user.age)
+> 19
+print(user.hobbies)
+> ["Coding", "Gaming", "Anime", "Gym"]
+print(user.interests)
+> ["Programming", "Music", "Open Source"]
 
 if __name__ == "__main__":
     me = AboutMe()
