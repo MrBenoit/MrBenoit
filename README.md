@@ -118,5 +118,4 @@ GitHub Stats 📊
 
 Pins 📌
 ---------------
-[![Somy](https://github-readme-stats.vercel.app/api/pin/?username=mrbenoit&repo=Somy-Discord-Bot&theme=material-palenight)](https://github.com/Somy-Discord-Bot)
 [![MatrixCalculator](https://github-readme-stats.vercel.app/api/pin/?username=mrbenoit&repo=MatrixCalculator&theme=material-palenight)](https://github.com/mrbenoit/MatrixCalculator)
