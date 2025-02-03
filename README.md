@@ -160,3 +160,5 @@ Contact Me 📡
 
 [//]: # ([![Top Langs]&#40;https://github-readme-stats.vercel.app/api/top-langs/?username=mrbenoit&#41;]&#40;https://github.com/anuraghazra/github-readme-stats&#41;)
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
