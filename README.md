@@ -35,7 +35,7 @@
 
 <br />
 
-```
+```py
 from datetime import date
 from sqlalchemy import select
 from sqlalchemy import and_
