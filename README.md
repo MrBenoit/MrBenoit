@@ -125,11 +125,38 @@ Contact Me 📡
 
 
 
+[//]: # ()
+[//]: # (GitHub Stats 📊)
 
-GitHub Stats 📊
----------------
-![Benoit GitHub Stats](https://github-readme-stats.vercel.app/api?username=mrbenoit&show_icons=true&theme=material-palenight)
+[//]: # (---------------)
 
-Pins 📌
----------------
-[![MatrixCalculator](https://github-readme-stats.vercel.app/api/pin/?username=mrbenoit&repo=MatrixCalculator&theme=material-palenight)](https://github.com/mrbenoit/MatrixCalculator)
+[//]: # (![Benoit GitHub Stats]&#40;https://github-readme-stats.vercel.app/api?username=mrbenoit&show_icons=true&theme=tokyonight&#41;)
+
+[//]: # ()
+[//]: # (Pins 📌)
+
+[//]: # (---------------)
+
+[//]: # ([![MatrixCalculator]&#40;https://github-readme-stats.vercel.app/api/pin/?username=mrbenoit&repo=MatrixCalculator&theme=tokyonight&#41;]&#40;https://github.com/mrbenoit/MatrixCalculator&#41;)
+
+[//]: # ()
+[//]: # (Trophy 📌)
+
+[//]: # (---------------)
+
+[//]: # ([![trophy]&#40;https://github-profile-trophy.vercel.app/?username=mrbenoit&theme=nord&#41;]&#40;https://github.com/ryo-ma/github-profile-trophy&#41;)
+
+[//]: # ()
+[//]: # (Strak stats)
+
+[//]: # (---------------)
+
+[//]: # ([![GitHub Streak]&#40;http://github-readme-streak-stats.herokuapp.com?user=&theme=tokyonight&hide_border=true&border_radius=5&short_numbers=true&date_format=M%20j%5B%2C%20Y%5D&exclude_days=Sun%2CMon%2CTue%2CWed%2CThu%2CFri%2CSat&#41;]&#40;https://git.io/streak-stats&#41;)
+
+[//]: # ()
+[//]: # (Language )
+
+[//]: # (---------------)
+
+[//]: # ([![Top Langs]&#40;https://github-readme-stats.vercel.app/api/top-langs/?username=mrbenoit&#41;]&#40;https://github.com/anuraghazra/github-readme-stats&#41;)
+
