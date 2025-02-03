@@ -1,19 +1,33 @@
 <h1 align="center">Hey there 👋, I'm Benoit!</h1>
 <p align="center">
-    <b>I am learning to program in order to simplify my life and create something new</b>
+    <i>Self proclaimed</i> <b>CEO of Procrastination</b> <i>and</i> <b>Avid Python & C Enjoyer</b>
     <br />
     <br />
-    <a href="https://github.com/MrBenoit">
-        <img src="https://badges.strrl.dev/years/mrbenoit?style=flat&labelColor=333333&logoColor=&color=FFFFFF&label=Years&logo=github" />
+    <a href="https://hits.seeyoufarm.com/">
+        <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FWilly-JL&title_bg=%232D2D2D&count_bg=%2322AA55&icon=github.svg&icon_color=%23E7E7E7&title=Views%20%28Day%20%2F%20All%29&edge_flat=false" />
     </a>
-    <a href="https://github.com/MrBenoit?tab=followers">
-        <img src="https://img.shields.io/github/followers/MrBenoit?style=flat&labelColor=333333&logoColor=E7E7E7&color=8939FF&label=Followers&logo=github" />
+    <a href="https://github.com/STRRL/serverless-github-badges">
+        <img src="https://badges.strrl.dev/years/Willy-JL?style=flat&labelColor=333333&logoColor=E7E7E7&color=0089FF&label=Years&logo=github" />
     </a>
-    <a href="https://github.com/MrBenoit">
-        <img src="https://img.shields.io/github/stars/MrBenoit?style=flat&affiliations=OWNER%2CCOLLABORATOR&labelColor=333333&logoColor=E7E7E7&color=EEAA00&label=Stars&logo=github" />
+    <a href="https://github.com/Willy-JL?tab=followers">
+        <img src="https://img.shields.io/github/followers/Willy-JL?style=flat&labelColor=333333&logoColor=E7E7E7&color=8939FF&label=Followers&logo=github" />
     </a>
-    <a href="https://github.com/MrBenoit">
+    <a href="#">
+        <img src="https://img.shields.io/github/stars/Willy-JL?style=flat&affiliations=OWNER%2CCOLLABORATOR&labelColor=333333&logoColor=E7E7E7&color=EEAA00&label=Stars&logo=github" />
+    </a>
+    <br />
+    <a href="https://github.com/STRRL/serverless-github-badges">
+        <img src="https://badges.strrl.dev/contributions/yearly/Willy-JL?style=flat&labelColor=333333&logoColor=E7E7E7&color=BA4AB9&label=Yearly%20Contributions&logo=github" />
+    </a>
+    <a href="https://github.com/STRRL/serverless-github-badges">
+        <img src="https://badges.strrl.dev/contributions/all/Willy-JL?style=flat&labelColor=333333&logoColor=E7E7E7&color=E96F24&label=All%20Contributions&logo=github" />
+    </a>
+    <br />
+    <a href="#">
         <img src="https://img.shields.io/badge/Open_Source-❤-FF0069?style=flat&labelColor=333333&logoColor=E7E7E7">
+    </a>
+    <a href="#">
+        <img src="https://img.shields.io/badge/PRs-Welcome-00CC00?style=flat&labelColor=333333&logoColor=E7E7E7">
     </a>
 </p>
 
@@ -21,7 +35,7 @@
 
 <br />
 
-```py
+```
 from datetime import date
 from sqlalchemy import select
 from sqlalchemy import and_
@@ -78,26 +92,26 @@ Projects 📦
 Languages 💾
 ------------
 [![Python](    https://img.shields.io/badge/-Python-333333?style=for-the-badge&logo=python&logoColor=white&labelColor=3776FB     )](https://www.python.org/)
-[![PostgreSQL](    https://img.shields.io/badge/-PostgreSql-333333?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=2352b8     )](https://www.postgresql.org)
-![HTML](    https://img.shields.io/badge/-HTML-333333?style=for-the-badge&logo=HTML&logoColor=white&labelColor=2352b8     )
-![CSS](    https://img.shields.io/badge/-CSS-333333?style=for-the-badge&logo=css&logoColor=white&labelColor=2352b8     )
+[![Golang](    https://img.shields.io/badge/-Go-333333?style=for-the-badge&logo=go&logoColor=white&labelColor=3776FB     )](https://go.dev/)
+[![SQL](    https://img.shields.io/badge/-PostgreSql-333333?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=2352b8     )](https://www.postgresql.org)
+[![HTML CSS JS](https://img.shields.io/badge/-HTML_CSS_JS-333333?style=for-the-badge&logo=html5&logoColor=white&labelColor=DD3A0A)](https://htmlbook.ru)
 
 
 Tools 🛠️
 --------
-[![VS Code](   https://img.shields.io/badge/-VS_Code-333333?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=007ACC)](https://code.visualstudio.com/)
-[![JetBrains](   https://img.shields.io/badge/-JetBrains-333333?style=for-the-badge&logo=jetbrains&logoColor=black&labelColor=faa84b)](https://code.visualstudio.com/)
+[![VS Code](   https://img.shields.io/badge/-VS_Code-333333?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VmlzdWFsIFN0dWRpbyBDb2RlPC90aXRsZT48cGF0aCBkPSJNMjMuMTUgMi41ODdMMTguMjEuMjFhMS40OTQgMS40OTQgMCAwIDAtMS43MDUuMjlsLTkuNDYgOC42My00LjEyLTMuMTI4YS45OTkuOTk5IDAgMCAwLTEuMjc2LjA1N0wuMzI3IDcuMjYxQTEgMSAwIDAgMCAuMzI2IDguNzRMMy44OTkgMTIgLjMyNiAxNS4yNmExIDEgMCAwIDAgLjAwMSAxLjQ3OUwxLjY1IDE3Ljk0YS45OTkuOTk5IDAgMCAwIDEuMjc2LjA1N2w0LjEyLTMuMTI4IDkuNDYgOC42M2ExLjQ5MiAxLjQ5MiAwIDAgMCAxLjcwNC4yOWw0Ljk0Mi0yLjM3N0ExLjUgMS41IDAgMCAwIDI0IDIwLjA2VjMuOTM5YTEuNSAxLjUgMCAwIDAtLjg1LTEuMzUyem0tNS4xNDYgMTQuODYxTDEwLjgyNiAxMmw3LjE3OC01LjQ0OHYxMC44OTZ6IiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPgo%3D&logoColor=white&labelColor=007ACC)](https://code.visualstudio.com/)[![JetBrains](   https://img.shields.io/badge/-JetBrains-333333?style=for-the-badge&logo=jetbrains&logoColor=black&labelColor=faa84b)](https://code.visualstudio.com/)
 [![Zsh](       https://img.shields.io/badge/-Zsh-333333?style=for-the-badge&logo=zelle&logoColor=white&labelColor=FF2299               )](https://www.zsh.org/)
 [![GitHub](    https://img.shields.io/badge/-GitHub-333333?style=for-the-badge&logo=github&logoColor=white&labelColor=222222           )](https://github.com/)
+[![Git](       https://img.shields.io/badge/-Git-333333?style=for-the-badge&logo=git&logoColor=white&labelColor=F05032                 )](https://git-scm.com/)
 
 My Specs 💻
 -----------
-![Desktop](https://img.shields.io/badge/Desktop-333333?style=for-the-badge&logo=ubuntu&logoColor=white&labelColor=00A4EF)
-[![CPU](https://img.shields.io/badge/-Ryzen_5_5600X%E2%81%A0%20%E2%81%A0%20-333333?style=for-the-badge&logo=amd&logoColor=white&labelColor=ED1C24)](https://www.amd.com/en/products/cpu/amd-ryzen-5-5600#product-specs)
-[![GPU](https://img.shields.io/badge/-Nvidia_RTX_3070-333333?style=for-the-badge&logo=nvidia&logoColor=white&labelColor=76B900)](https://www.amd.com/en/products/apu/amd-ryzen-5-3500u#product-specs)
+![Desktop](https://img.shields.io/badge/Windows_11-Desktop-333333?style=for-the-badge&logo=pcgamingwiki&logoColor=white&labelColor=0078D4)
+[![CPU](https://img.shields.io/badge/-Ryzen_7_5700X%20%E2%81%A0%20%E2%81%A0%20-333333?style=for-the-badge&logo=amd&logoColor=white&labelColor=ED1C24)](https://www.amd.com/en/products/cpu/amd-ryzen-7-5700x#product-specs)
+[![GPU](https://img.shields.io/badge/-RTX_3070-333333?style=for-the-badge&logo=nvidia&logoColor=white&labelColor=76B900)](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3070/)
 
-[![Mac OS](  https://img.shields.io/badge/-Laptop-333333?style=for-the-badge&logo=apple&logoColor=white&labelColor=black        )]()
-[![CPU](https://img.shields.io/badge/-M1-333333?style=for-the-badge&logo=apple&logoColor=white&labelColor=black)](https://www.amd.com/en/products/apu/amd-ryzen-5-3500u#product-specs)
+![Desktop](https://img.shields.io/badge/Macbook_pro-333333?style=for-the-badge&logo=apple&logoColor=white&labelColor=black)
+[![CPU](https://img.shields.io/badge/M1_Pro-333333?style=for-the-badge&logo=apple&logoColor=white&labelColor=black)](https://www.amd.com/en/products/cpu/amd-ryzen-7-5700x#product-specs)
 
 Contact Me 📡
 ---------------
