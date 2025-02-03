@@ -4,23 +4,23 @@
     <br />
     <br />
     <a href="https://hits.seeyoufarm.com/">
-        <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FWilly-JL&title_bg=%232D2D2D&count_bg=%2322AA55&icon=github.svg&icon_color=%23E7E7E7&title=Views%20%28Day%20%2F%20All%29&edge_flat=false" />
+        <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmrbenoit&title_bg=%232D2D2D&count_bg=%2322AA55&icon=github.svg&icon_color=%23E7E7E7&title=Views%20%28Day%20%2F%20All%29&edge_flat=false" />
     </a>
     <a href="https://github.com/STRRL/serverless-github-badges">
-        <img src="https://badges.strrl.dev/years/Willy-JL?style=flat&labelColor=333333&logoColor=E7E7E7&color=0089FF&label=Years&logo=github" />
+        <img src="https://badges.strrl.dev/years/mrbenoit?style=flat&labelColor=333333&logoColor=E7E7E7&color=0089FF&label=Years&logo=github" />
     </a>
-    <a href="https://github.com/Willy-JL?tab=followers">
-        <img src="https://img.shields.io/github/followers/Willy-JL?style=flat&labelColor=333333&logoColor=E7E7E7&color=8939FF&label=Followers&logo=github" />
+    <a href="https://github.com/mrbenoit?tab=followers">
+        <img src="https://img.shields.io/github/followers/mrbenoit?style=flat&labelColor=333333&logoColor=E7E7E7&color=8939FF&label=Followers&logo=github" />
     </a>
     <a href="#">
-        <img src="https://img.shields.io/github/stars/Willy-JL?style=flat&affiliations=OWNER%2CCOLLABORATOR&labelColor=333333&logoColor=E7E7E7&color=EEAA00&label=Stars&logo=github" />
+        <img src="https://img.shields.io/github/stars/mrbenoit?style=flat&affiliations=OWNER%2CCOLLABORATOR&labelColor=333333&logoColor=E7E7E7&color=EEAA00&label=Stars&logo=github" />
     </a>
     <br />
     <a href="https://github.com/STRRL/serverless-github-badges">
-        <img src="https://badges.strrl.dev/contributions/yearly/Willy-JL?style=flat&labelColor=333333&logoColor=E7E7E7&color=BA4AB9&label=Yearly%20Contributions&logo=github" />
+        <img src="https://badges.strrl.dev/contributions/yearly/mrbenoit?style=flat&labelColor=333333&logoColor=E7E7E7&color=BA4AB9&label=Yearly%20Contributions&logo=github" />
     </a>
     <a href="https://github.com/STRRL/serverless-github-badges">
-        <img src="https://badges.strrl.dev/contributions/all/Willy-JL?style=flat&labelColor=333333&logoColor=E7E7E7&color=E96F24&label=All%20Contributions&logo=github" />
+        <img src="https://badges.strrl.dev/contributions/all/mrbenoit?style=flat&labelColor=333333&logoColor=E7E7E7&color=E96F24&label=All%20Contributions&logo=github" />
     </a>
     <br />
     <a href="#">
