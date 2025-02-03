@@ -161,4 +161,75 @@ Contact Me 📡
 [//]: # ([![Top Langs]&#40;https://github-readme-stats.vercel.app/api/top-langs/?username=mrbenoit&#41;]&#40;https://github.com/anuraghazra/github-readme-stats&#41;)
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-262%20hrs%2040%20mins-blue)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
+
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-87.6%20thousand%20lines%20of%20code-blue)
+
+**🐱 My GitHub Data** 
+
+> 📦 34 Bytes Used in GitHub's Storage 
+ > 
+> 🏆 9 Contributions in the Year 2025
+ > 
+> 🚫 Not Opted to Hire
+ > 
+> 📜 2 Public Repositories 
+ > 
+> 🔑 1 Private Repositories 
+ > 
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                2 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   02.86 % 
+🌆 Daytime                34 commits          ████████████░░░░░░░░░░░░░   48.57 % 
+🌃 Evening                28 commits          ██████████░░░░░░░░░░░░░░░   40.00 % 
+🌙 Night                  6 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   08.57 % 
+```
+📅 **I'm Most Productive on Sunday** 
+
+```text
+Monday                   9 commits           ███░░░░░░░░░░░░░░░░░░░░░░   12.86 % 
+Tuesday                  2 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   02.86 % 
+Wednesday                12 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.14 % 
+Thursday                 1 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   01.43 % 
+Friday                   2 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   02.86 % 
+Saturday                 16 commits          ██████░░░░░░░░░░░░░░░░░░░   22.86 % 
+Sunday                   28 commits          ██████████░░░░░░░░░░░░░░░   40.00 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Europe/Moscow
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+```
+
+**I Mostly Code in Python** 
+
+```text
+Python                   3 repos             ████████████░░░░░░░░░░░░░   50.00 % 
+JavaScript               1 repo              ████░░░░░░░░░░░░░░░░░░░░░   16.67 % 
+CSS                      1 repo              ████░░░░░░░░░░░░░░░░░░░░░   16.67 % 
+Java                     1 repo              ████░░░░░░░░░░░░░░░░░░░░░   16.67 % 
+```
+
+
+
+**Timeline**
+
+![Lines of Code chart](https://raw.githubusercontent.com/MrBenoit/MrBenoit/main/assets/bar_graph.png)
+
+
+ Last Updated on 03/02/2025 10:33:37 UTC
 <!--END_SECTION:waka-->
