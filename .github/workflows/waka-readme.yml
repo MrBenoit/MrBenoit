@@ -14,3 +14,10 @@ jobs:
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          SHOW_OS: "True"                # Скрыть используемую ОС
+          SHOW_PROJECTS: "False"          # Скрыть проекты
+          SHOW_PROFILE_VIEWS: "True"     # Скрыть просмотры профиля
+          SHOW_COMMIT: "True"            # Скрыть статистику коммитов
+          SHOW_TOTAL_CODE_TIME: "True"    # Показать общее время кодинга
+          SHOW_LINES_OF_CODE: "True"      # Показать количество написанных строк кода
+          COMMIT_MESSAGE: "Update"
