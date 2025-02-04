@@ -1,6 +1,6 @@
 <h1 align="center">Hey there 👋, I'm Benoit!</h1>
 <p align="center">
-    <i>Self proclaimed</i> <b>CEO of Procrastination</b> <i>and</i> <b>Avid Python & C Enjoyer</b>
+    <i>Self proclaimed</i> <b>СЕО деградации</b> <i>и</i> <b>Чпокаюсь с кодом</b>
     <br />
     <br />
     <a href="https://hits.seeyoufarm.com/">
