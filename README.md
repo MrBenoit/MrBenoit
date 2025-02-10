@@ -81,7 +81,7 @@ if __name__ == "__main__":
 
 Projects 📦
 -----------
-- #### <a href="https://github.com/Lapis-Bot/Bot"><img align="center" src="https://img.shields.io/badge/-Lapis-7289da?style=for-the-badge"></a> -&nbsp;Discord bot with a variety of functionality
+- #### <a href="https://github.com/Somy-Discord-Bot"><img align="center" src="https://img.shields.io/badge/-Somy Discord Bot-7289da?style=for-the-badge"></a> -&nbsp;Discord bot with a variety of functionality
 
 - #### <a href="https://github.com/MrBenoit/MatrixCalculator"><img align="center" src="https://img.shields.io/badge/-Matrix Calculator-3f4cba?style=for-the-badge"></a> -&nbsp;A simple matrix calculator. I wrote it out of boredom
 
