@@ -112,7 +112,7 @@ func main() {
 ## 💻 Setup
 
 <p>
-  <img src="https://img.shields.io/badge/MacBook_Pro-M1_Pro-1d1e29?style=for-the-badge&logo=apple&logoColor=white&labelColor=000000">
+  <img src="https://img.shields.io/badge/MacBook_Pro-M4_Pro-1d1e29?style=for-the-badge&logo=apple&logoColor=white&labelColor=000000">
   <img src="https://img.shields.io/badge/Desktop-Ryzen_7_7800X3D_·_RTX_5070-1d1e29?style=for-the-badge&logo=amd&logoColor=white&labelColor=ED1C24">
 </p>
 
