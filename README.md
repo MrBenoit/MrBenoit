@@ -1,124 +1,127 @@
-[]()<h1 align="center">Hey there 👋, I'm Benoit!</h1>
+<h1 align="center">Hey, I'm Benoit 👋</h1>
+
 <p align="center">
-    <i>Self proclaimed</i> <b>СЕО деградации</b> <i>и</i> <b>Чпокаюсь с кодом</b>
-    <br />
-    <br />
-    <a href="https://hits.seeyoufarm.com/">
-        <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmrbenoit&title_bg=%232D2D2D&count_bg=%2322AA55&icon=github.svg&icon_color=%23E7E7E7&title=Views%20%28Day%20%2F%20All%29&edge_flat=false" />
-    </a>
-    <a href="https://github.com/STRRL/serverless-github-badges">
-        <img src="https://badges.strrl.dev/years/mrbenoit?style=flat&labelColor=333333&logoColor=E7E7E7&color=0089FF&label=Years&logo=github" />
-    </a>
-    <a href="https://github.com/mrbenoit?tab=followers">
-        <img src="https://img.shields.io/github/followers/mrbenoit?style=flat&labelColor=333333&logoColor=E7E7E7&color=8939FF&label=Followers&logo=github" />
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/github/stars/mrbenoit?style=flat&affiliations=OWNER%2CCOLLABORATOR&labelColor=333333&logoColor=E7E7E7&color=EEAA00&label=Stars&logo=github" />
-    </a>
-    <br />
-    <a href="https://github.com/STRRL/serverless-github-badges">
-        <img src="https://badges.strrl.dev/contributions/yearly/mrbenoit?style=flat&labelColor=333333&logoColor=E7E7E7&color=BA4AB9&label=Yearly%20Contributions&logo=github" />
-    </a>
-    <a href="https://github.com/STRRL/serverless-github-badges">
-        <img src="https://badges.strrl.dev/contributions/all/mrbenoit?style=flat&labelColor=333333&logoColor=E7E7E7&color=E96F24&label=All%20Contributions&logo=github" />
-    </a>
-    <br />
-    <a href="#">
-        <img src="https://img.shields.io/badge/Open_Source-❤-FF0069?style=flat&labelColor=333333&logoColor=E7E7E7">
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/badge/PRs-Welcome-00CC00?style=flat&labelColor=333333&logoColor=E7E7E7">
-    </a>
+  <i>I build things for the terminal — and occasionally they escape into production.</i>
 </p>
 
-<br />
+<p align="center">
+  <a href="https://github.com/MrBenoit?tab=followers">
+    <img src="https://img.shields.io/github/followers/MrBenoit?style=for-the-badge&labelColor=1d1e29&color=7aa2f7&label=Followers&logo=github&logoColor=white" alt="Followers">
+  </a>
+  <a href="https://github.com/MrBenoit?tab=repositories">
+    <img src="https://img.shields.io/github/stars/MrBenoit?style=for-the-badge&affiliations=OWNER&labelColor=1d1e29&color=e0af68&label=Stars&logo=github&logoColor=white" alt="Stars">
+  </a>
+  <a href="https://github.com/STRRL/serverless-github-badges">
+    <img src="https://badges.strrl.dev/years/MrBenoit?style=for-the-badge&labelColor=1d1e29&color=56b6ff&label=Years&logo=github&logoColor=white" alt="Years on GitHub">
+  </a>
+  <a href="https://github.com/STRRL/serverless-github-badges">
+    <img src="https://badges.strrl.dev/contributions/all/MrBenoit?style=for-the-badge&labelColor=1d1e29&color=34d399&label=Contributions&logo=github&logoColor=white" alt="Contributions">
+  </a>
+</p>
 
-<br />
+<br>
 
-```py
-from datetime import date
-from sqlalchemy import select
-from sqlalchemy import and_
-from sqlalchemy.ext.asyncio import AsyncSession
+```go
+package main
 
-from core.models import engine
+import (
+	"fmt"
+	"time"
+)
 
-class AboutMe():
-    def __init__(self):
-        async with AsyncSession(engine) as session:
-            user = session.scalar(
-                select(Users)
-                .where(
-                    and_(
-                        user_id=1,
-                        user_name='MrBenoit'
-                    )
-                )
-            )
-            
-        print(user.username)
-        > MrBenoit
-        print(user.pronouns)
-        > ["he", "him"]
-        print(user.location)
-        > {"Russian": "Moscow"}
-        print(user.occupation)
-        > Computer Science Student
-        print(user.birthday)
-        > 16.06.2004
-        print(user.age)
-        > 19
-        print(user.hobbies)
-        > ["Coding", "Gaming", "Anime", "Gym"]
-        print(user.interests)
-        > ["Programming", "Music", "Open Source"]
+type Developer struct {
+	Name     string
+	Pronouns []string
+	Location string
+	Born     time.Time
+	Stack    []string
+	Hobbies  []string
+	Now      string
+}
 
-if __name__ == "__main__":
-    me = AboutMe()
+// Age считается от даты рождения, а не хранится числом:
+// иначе этот README устаревал бы ровно раз в год.
+func (d Developer) Age() int {
+	years := time.Now().Year() - d.Born.Year()
+	if time.Now().YearDay() < d.Born.YearDay() {
+		years-- // день рождения ещё не наступил
+	}
+	return years
+}
+
+func main() {
+	me := Developer{
+		Name:     "Benoit",
+		Pronouns: []string{"he", "him"},
+		Location: "Moscow, Russia",
+		Born:     time.Date(2004, time.June, 16, 0, 0, 0, 0, time.UTC),
+		Stack:    []string{"Go", "Python", "PostgreSQL", "TypeScript"},
+		Hobbies:  []string{"Coding", "Gaming", "Anime", "Gym"},
+		Now:      "building unissh — a TUI for managing VPS fleets over SSH",
+	}
+
+	fmt.Printf("%s, %d — %s\n", me.Name, me.Age(), me.Location)
+	fmt.Println("Currently:", me.Now)
+}
 ```
 
-<br />
+<br>
 
-Projects 📦
------------
-- #### <a href="https://github.com/Somy-Discord-Bot"><img align="center" src="https://img.shields.io/badge/-Somy-070F2C?style=for-the-badge"></a> -&nbsp;Discord bot with a variety of functionality
+## 🚀 Featured
 
-- #### <a href="https://github.com/MrBenoit/MatrixCalculator"><img align="center" src="https://img.shields.io/badge/-Matrix Calculator-3f4cba?style=for-the-badge"></a> -&nbsp;A simple matrix calculator. I wrote it out of boredom
+<table>
+  <tr>
+    <td width="80" align="center">
+      <a href="https://github.com/MrBenoit/unissh"><b>unissh</b></a>
+    </td>
+    <td>
+      <b>Your whole VPS fleet, one keystroke away.</b><br>
+      A fast, colourful terminal UI for SSH: live CPU/RAM/disk right in the server list,
+      folders, port forwarding, and automatic first-time setup of a fresh VPS —
+      with lockout protection.<br>
+      <sub>
+        <img src="https://img.shields.io/badge/Go-1.26-00ADD8?style=flat-square&logo=go&logoColor=white&labelColor=1d1e29">
+        <img src="https://img.shields.io/github/v/release/MrBenoit/unissh?style=flat-square&labelColor=1d1e29&color=34d399">
+        <img src="https://img.shields.io/github/stars/MrBenoit/unissh?style=flat-square&labelColor=1d1e29&color=e0af68">
+        <img src="https://img.shields.io/badge/coverage-99%25-34d399?style=flat-square&labelColor=1d1e29">
+      </sub>
+    </td>
+  </tr>
+</table>
 
-- #### <a href="https://mrbenoit.ru"><img align="center" src="https://img.shields.io/badge/-mrbenoit.ru-2880bf?style=for-the-badge"></a> :&nbsp; My personal webpage
+## 📦 Projects
 
-<br/>
+- **[mrbenoit.ru](https://github.com/MrBenoit/mrbenoit.ru)** &nbsp;·&nbsp; my personal website <sub>`TypeScript`</sub>
+- **[MatrixCalculator](https://github.com/MrBenoit/MatrixCalculator)** &nbsp;·&nbsp; a simple matrix calculator, written out of boredom <sub>`Python`</sub>
 
-Languages 💾
-------------
-[![Python](    https://img.shields.io/badge/-Python-333333?style=for-the-badge&logo=python&logoColor=white&labelColor=3776FB     )](https://www.python.org/)
-[![Golang](    https://img.shields.io/badge/-Go-333333?style=for-the-badge&logo=go&logoColor=white&labelColor=3776FB     )](https://go.dev/)
-[![SQL](    https://img.shields.io/badge/-PostgreSql-333333?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=2352b8     )](https://www.postgresql.org)
-[![HTML CSS JS](https://img.shields.io/badge/-HTML_CSS_JS-333333?style=for-the-badge&logo=html5&logoColor=white&labelColor=DD3A0A)](https://htmlbook.ru)
+## 🛠 Stack
 
+<p>
+  <img src="https://img.shields.io/badge/-Go-1d1e29?style=for-the-badge&logo=go&logoColor=white&labelColor=00ADD8">
+  <img src="https://img.shields.io/badge/-Python-1d1e29?style=for-the-badge&logo=python&logoColor=white&labelColor=3776AB">
+  <img src="https://img.shields.io/badge/-PostgreSQL-1d1e29?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=4169E1">
+  <img src="https://img.shields.io/badge/-TypeScript-1d1e29?style=for-the-badge&logo=typescript&logoColor=white&labelColor=3178C6">
+</p>
+<p>
+  <img src="https://img.shields.io/badge/-JetBrains-1d1e29?style=for-the-badge&logo=jetbrains&logoColor=white&labelColor=000000">
+  <img src="https://img.shields.io/badge/-Zsh-1d1e29?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=4EAA25">
+  <img src="https://img.shields.io/badge/-Git-1d1e29?style=for-the-badge&logo=git&logoColor=white&labelColor=F05032">
+  <img src="https://img.shields.io/badge/-Linux-1d1e29?style=for-the-badge&logo=linux&logoColor=black&labelColor=FCC624">
+</p>
 
-Tools 🛠️
---------
-[![VS Code](   https://img.shields.io/badge/-VS_Code-333333?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VmlzdWFsIFN0dWRpbyBDb2RlPC90aXRsZT48cGF0aCBkPSJNMjMuMTUgMi41ODdMMTguMjEuMjFhMS40OTQgMS40OTQgMCAwIDAtMS43MDUuMjlsLTkuNDYgOC42My00LjEyLTMuMTI4YS45OTkuOTk5IDAgMCAwLTEuMjc2LjA1N0wuMzI3IDcuMjYxQTEgMSAwIDAgMCAuMzI2IDguNzRMMy44OTkgMTIgLjMyNiAxNS4yNmExIDEgMCAwIDAgLjAwMSAxLjQ3OUwxLjY1IDE3Ljk0YS45OTkuOTk5IDAgMCAwIDEuMjc2LjA1N2w0LjEyLTMuMTI4IDkuNDYgOC42M2ExLjQ5MiAxLjQ5MiAwIDAgMCAxLjcwNC4yOWw0Ljk0Mi0yLjM3N0ExLjUgMS41IDAgMCAwIDI0IDIwLjA2VjMuOTM5YTEuNSAxLjUgMCAwIDAtLjg1LTEuMzUyem0tNS4xNDYgMTQuODYxTDEwLjgyNiAxMmw3LjE3OC01LjQ0OHYxMC44OTZ6IiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPgo%3D&logoColor=white&labelColor=007ACC)](https://code.visualstudio.com/)[![JetBrains](   https://img.shields.io/badge/-JetBrains-333333?style=for-the-badge&logo=jetbrains&logoColor=black&labelColor=faa84b)](https://code.visualstudio.com/)
-[![Zsh](       https://img.shields.io/badge/-Zsh-333333?style=for-the-badge&logo=zelle&logoColor=white&labelColor=FF2299               )](https://www.zsh.org/)
-[![GitHub](    https://img.shields.io/badge/-GitHub-333333?style=for-the-badge&logo=github&logoColor=white&labelColor=222222           )](https://github.com/)
-[![Git](       https://img.shields.io/badge/-Git-333333?style=for-the-badge&logo=git&logoColor=white&labelColor=F05032                 )](https://git-scm.com/)
+## 💻 Setup
 
-My Specs 💻
------------
-![Desktop](https://img.shields.io/badge/Windows_11-Desktop-333333?style=for-the-badge&logo=pcgamingwiki&logoColor=white&labelColor=0078D4)
-[![CPU](https://img.shields.io/badge/-Ryzen_7_5700X%20%E2%81%A0%20%E2%81%A0%20-333333?style=for-the-badge&logo=amd&logoColor=white&labelColor=ED1C24)](https://www.amd.com/en/products/cpu/amd-ryzen-7-5700x#product-specs)
-[![GPU](https://img.shields.io/badge/-RTX_3070-333333?style=for-the-badge&logo=nvidia&logoColor=white&labelColor=76B900)](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3070/)
+<p>
+  <img src="https://img.shields.io/badge/MacBook_Pro-M1_Pro-1d1e29?style=for-the-badge&logo=apple&logoColor=white&labelColor=000000">
+  <img src="https://img.shields.io/badge/Desktop-Ryzen_7_5700X_·_RTX_3070-1d1e29?style=for-the-badge&logo=amd&logoColor=white&labelColor=ED1C24">
+</p>
 
-![Desktop](https://img.shields.io/badge/Macbook_pro-333333?style=for-the-badge&logo=apple&logoColor=white&labelColor=black)
-[![CPU](https://img.shields.io/badge/M1_Pro-333333?style=for-the-badge&logo=apple&logoColor=white&labelColor=black)](https://www.amd.com/en/products/cpu/amd-ryzen-7-5700x#product-specs)
+## 📡 Contact
 
-Contact Me 📡
----------------
-[![Discord](https://img.shields.io/badge/-%E2%81%A0%20%E2%81%A0%E2%81%A0%20%E2%81%A0mrbenoit00%E2%81%A0%20%E2%81%A0%20-333333?style=for-the-badge&logo=discord&logoColor=white&labelColor=5865F2)](https://discord.gg/5bb3H73deS)
-[![Instagram](https://img.shields.io/badge/-@MrBenoit00-333333?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F)](https://www.instagram.com/MrBenoit00)\
-[![Reddit](https://img.shields.io/badge/-%E2%81%A0%E2%81%A0u%2FMrBenoit00%E2%81%A0%E2%81%A0-333333?style=for-the-badge&logo=reddit&logoColor=white&labelColor=FF4500)](https://www.reddit.com/user/MrBenoit00)
-[![Patreon](https://img.shields.io/badge/-@MrBenoit-333333?style=for-the-badge&logo=patreon&logoColor=white&labelColor=FF4500)](https://www.patreon.com/MrBenoit)\
-[![X](https://img.shields.io/badge/-@MrBenoit00-333333?style=for-the-badge&logo=X&logoColor=white&labelColor=000000)](https://twitter.com/MrBenoit00)
-[![GitHub](https://img.shields.io/badge/-%E2%81%A0%20%E2%81%A0MrBenoit%20%E2%81%A0%E2%81%A0-333333?style=for-the-badge&logo=github&logoColor=white&labelColor=181717)](https://github.com/MrBenoit)\
-[![Telegram](https://img.shields.io/badge/-@MrBenoit-333333?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1DA1F2)](https://t.me/mrbenoit)
+<p>
+  <a href="https://t.me/mrbenoit"><img src="https://img.shields.io/badge/-Telegram-1d1e29?style=for-the-badge&logo=telegram&logoColor=white&labelColor=26A5E4"></a>
+  <a href="https://discord.gg/5bb3H73deS"><img src="https://img.shields.io/badge/-Discord-1d1e29?style=for-the-badge&logo=discord&logoColor=white&labelColor=5865F2"></a>
+  <a href="https://twitter.com/MrBenoit00"><img src="https://img.shields.io/badge/-@MrBenoit00-1d1e29?style=for-the-badge&logo=x&logoColor=white&labelColor=000000"></a>
+  <a href="https://www.reddit.com/user/MrBenoit00"><img src="https://img.shields.io/badge/-u/MrBenoit00-1d1e29?style=for-the-badge&logo=reddit&logoColor=white&labelColor=FF4500"></a>
+  <a href="https://www.instagram.com/MrBenoit00"><img src="https://img.shields.io/badge/-@MrBenoit00-1d1e29?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F"></a>
+</p>
